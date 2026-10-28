@@ -1,0 +1,30 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "collapsible FAQ question and answer list",
+    "description": "Interactive collapsible Q&A items."
+  },
+  "contentPattern": {
+    "structure": "one row per item: (1) question; (2) answer content",
+    "source": "FAQ (#main-content > section.section:nth-of-type(5))",
+    "rows": [
+      [
+        "Question (title)",
+        "Answer paragraph"
+      ]
+    ],
+    "rowCount": 4,
+    "sectionMetadata": [
+      {
+        "style": "split"
+      }
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "FAQ lists, typically in a split section beside an intro heading.",
+  "reuseGuidance": "Built on native details/summary; rows without a question are dropped.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

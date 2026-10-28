@@ -1,0 +1,29 @@
+{
+  "variantName": "columns-hero-collage",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "page-opening hero with heading, intro text and CTAs beside a three-image collage",
+    "description": "Fixed side-by-side layout of two different contents (text + CTAs vs. 3-image collage) that never wraps into a grid; images are inline, not a background, so not hero."
+  },
+  "contentPattern": {
+    "structure": "one row with two cells: (1) H1, paragraph, primary and secondary CTA links; (2) two or more images forming the collage",
+    "source": "Hero intro with image collage (#main-content > header.section.secondary-section)",
+    "rows": [
+      [
+        "Column 1: H1, paragraph, links 'See case' (primary) and 'All stories' (secondary)",
+        "Column 2: 3 images (collage)"
+      ]
+    ],
+    "sectionMetadata": [
+      {
+        "style": "light-grey"
+      }
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top-of-page intro where text and CTAs sit beside several inline photos.",
+  "reuseGuidance": "Use when the images are inline content, not a background. For a single background photo use hero-overlay-card.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

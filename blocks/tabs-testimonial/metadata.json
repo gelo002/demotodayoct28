@@ -1,0 +1,26 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "testimonials switched by person tabs, each panel showing an image and a quotation",
+    "description": "Interactive component: 4 tab buttons switch the panel. Quotations stay inside the tab panels; every tab label keeps its avatar, name and role, and each panel keeps its image."
+  },
+  "contentPattern": {
+    "structure": "one row per testimonial: (1) tab label with avatar image, bold name and role; (2) panel with image, bold name, role and quotation paragraph",
+    "source": "Testimonial tabs (#main-content > section.section:nth-of-type(3))",
+    "rows": [
+      [
+        "Tab label: avatar image, name (strong), role",
+        "Tab content: image, name (strong), role, quotation paragraph"
+      ]
+    ],
+    "rowCount": 4,
+    "sectionMetadata": []
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Testimonial or quote carousels where people are selected from a row of avatar tabs.",
+  "reuseGuidance": "Panels render above the tab list; keyboard arrows, Home and End move between tabs.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

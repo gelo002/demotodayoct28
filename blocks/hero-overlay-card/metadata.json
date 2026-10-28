@@ -1,0 +1,27 @@
+{
+  "variantName": "hero-overlay-card",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "closing banner with photo background, dark overlay, heading, text and CTA",
+    "description": "Photo background with overlay, heading, text and CTA. The photo belongs to the block, so the section is not styled despite the black band."
+  },
+  "contentPattern": {
+    "structure": "row 1: background image; row 2: heading, paragraph and CTA link",
+    "source": "Closing banner (#main-content > section.section.inverse-section)",
+    "rows": [
+      [
+        "Background image"
+      ],
+      [
+        "H2, paragraph, CTA link 'See more'"
+      ]
+    ],
+    "sectionMetadata": []
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Full-width promotional or closing banners on a photo.",
+  "reuseGuidance": "The photo belongs to the block; do not use a section background image for this pattern. Adds no-image when the image is missing.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}
