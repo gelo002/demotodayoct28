@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "demotodayoct28": {
+      "previewOrg": "gelo002",
+      "previewSite": "demotodayoct28",
+      "contentHostUrl": "https://content.da.live/gelo002/demotodayoct28/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

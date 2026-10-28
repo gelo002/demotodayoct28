@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-article-intro",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "featured article or case study intro with image beside breadcrumb, title and byline",
+    "description": "Fixed two-column layout: image beside breadcrumb, H2 and byline."
+  },
+  "contentPattern": {
+    "structure": "one row with two cells: (1) image; (2) breadcrumb paragraph of links, heading, author paragraph, date / read-time paragraph",
+    "source": "Featured case study intro (#main-content > section.section:nth-of-type(1))",
+    "rows": [
+      [
+        "Column 1: image",
+        "Column 2: breadcrumb links (Home, Case studies), H2, byline 'By Taylor Brooks', 'June 12, 2024 • 4 min read'"
+      ]
+    ],
+    "sectionMetadata": []
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Intro of a featured story or case study.",
+  "reuseGuidance": "The first all-link paragraph before the heading becomes a breadcrumb nav; paragraphs after the heading are styled as byline/meta.",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}

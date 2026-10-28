@@ -1,0 +1,33 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "grid of article teasers with image, tag, date and linked title",
+    "description": "Dynamic list: each item links to a blog detail page and carries a tag and date, so Cards."
+  },
+  "contentPattern": {
+    "structure": "one row per article: (1) image; (2) tag and date paragraph(s) followed by a heading containing the article link",
+    "source": "Latest articles (#main-content > section.section.secondary-section:nth-of-type(4))",
+    "rows": [
+      [
+        "Image",
+        "Tag, date, H3 title linked to the article"
+      ]
+    ],
+    "rowCount": 4,
+    "sectionMetadata": [
+      {
+        "style": [
+          "light-grey",
+          "centered"
+        ]
+      }
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Latest articles / blog listing teasers.",
+  "reuseGuidance": "The heading link is stretched to make the whole card clickable; paragraphs before the heading are treated as meta (tag, date).",
+  "sourceUrl": "https://www.wknd-trendsetters.site/"
+}
